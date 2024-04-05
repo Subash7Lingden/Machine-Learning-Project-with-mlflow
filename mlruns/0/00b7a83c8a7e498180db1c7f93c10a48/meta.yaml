@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/industry%20standard%20ml%20project/MLOPS%20Data%20Science%20Project/Machine-Learning-Project-with-mlflow/mlruns/0/00b7a83c8a7e498180db1c7f93c10a48/artifacts
+end_time: 1712337965019
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 00b7a83c8a7e498180db1c7f93c10a48
+run_name: dazzling-fish-813
+run_uuid: 00b7a83c8a7e498180db1c7f93c10a48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712337959388
+status: 3
+tags: []
+user_id: acer

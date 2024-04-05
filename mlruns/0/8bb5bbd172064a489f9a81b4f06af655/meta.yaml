@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/industry%20standard%20ml%20project/MLOPS%20Data%20Science%20Project/Machine-Learning-Project-with-mlflow/mlruns/0/8bb5bbd172064a489f9a81b4f06af655/artifacts
+end_time: 1712337715347
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8bb5bbd172064a489f9a81b4f06af655
+run_name: nosy-quail-576
+run_uuid: 8bb5bbd172064a489f9a81b4f06af655
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712337708489
+status: 3
+tags: []
+user_id: acer

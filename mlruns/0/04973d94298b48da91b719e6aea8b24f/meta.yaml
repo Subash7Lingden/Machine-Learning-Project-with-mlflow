@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/industry%20standard%20ml%20project/MLOPS%20Data%20Science%20Project/Machine-Learning-Project-with-mlflow/mlruns/0/04973d94298b48da91b719e6aea8b24f/artifacts
+end_time: 1712337526151
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 04973d94298b48da91b719e6aea8b24f
+run_name: learned-gull-398
+run_uuid: 04973d94298b48da91b719e6aea8b24f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712337520587
+status: 3
+tags: []
+user_id: acer
