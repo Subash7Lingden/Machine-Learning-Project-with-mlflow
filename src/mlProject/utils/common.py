@@ -69,65 +69,65 @@ def save_json(path:Path, data:dict):
     logger.info(f"json file saved at: {path}")
 
 
-    @ensure_annotations
-    def load_json(path:Path)-> ConfigBox:
-        """
-        load json files data
+@ensure_annotations
+def load_json(path:Path)-> ConfigBox:
+    """
+    load json files data
 
-        Args:
-            path (Path) to json file
+    Args:
+        path (Path) to json file
 
-        Returns: 
-            ConfigBox: data as class attributs instead of dict
+    Returns: 
+        ConfigBox: data as class attributs instead of dict
         
-        """
-        with open(path) as f:
-            content = json.load(f)
+    """
+    with open(path) as f:
+        content = json.load(f)
 
-        logger.info(f"json file loaded successfully from: {path}")
-        return ConfigBox(content)
+    logger.info(f"json file loaded successfully from: {path}")
+    return ConfigBox(content)
     
-    @ensure_annotations
-    def save_bin(data: Any, path:path):
-        """
-        save binary file
+@ensure_annotations
+def save_bin(data: Any, path:Path):
+    """
+    save binary file
 
-        Args: 
-            data (Any): data to be saved as binary
-            path (path): path to binary file
+    Args: 
+        data (Any): data to be saved as binary
+        path (path): path to binary file
 
-        """
-        joblib.dump(value=data,filename=path)
-        logger.info(f"binary file saved at:{path}")
+    """
+    joblib.dump(value=data,filename=path)
+    logger.info(f"binary file saved at:{path}")
 
     
-    @ensure_annotations
-    def load_bin(path:Path)-> Any:
-        """
-        load binary data
+@ensure_annotations
+def load_bin(path:Path)-> Any:
+    """
+    load binary data
 
-        Args:
-            path (Path): path to binary file
+    Args:
+        path (Path): path to binary file
 
-        Returns:
-            Any: object stored in the file
+    Returns:
+        Any: object stored in the file
         
-        """
-        data = joblib.load(path)
-        logger.info(f"binary file loaded from: {path}")
-        return data
+    """
+    data = joblib.load(path)
+    logger.info(f"binary file loaded from: {path}")
+    return data
     
-    @ensure_annotations
-    def get_size(path: Path)->str:
-        """
-        get size in KB
+@ensure_annotations
+def get_size(path: Path)->str:
+    """
+    get size in KB
 
-        Args:
-            path (path): path of the file
+    Args:
+        path (path): path of the file
 
-        Returns:
-            str: size in KB
-        """
+    Returns:
+        str: size in KB
+    """
 
-        size_in_kb = round(os.path.getsize(path)/1024)
-        return f"~{size_in_kb} KB"
+    size_in_kb = round(os.path.getsize(path)/1024)
+    return f"~{size_in_kb} KB"
